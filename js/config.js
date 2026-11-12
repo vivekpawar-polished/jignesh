@@ -36,11 +36,11 @@ window.WEDDING = {
      Add or remove lines as needed.
      ---------------------------------------------------------- */
   gallery: [
-    { src: "photos/1.jpeg", alt: "Neha and Jignesh" },
-    { src: "photos/2.jpeg", alt: "Neha and Jignesh" },
-    { src: "photos/3.jpeg", alt: "Neha and Jignesh" },
-    { src: "photos/4.jpeg", alt: "Neha and Jignesh" },
-    { src: "photos/5.jpeg", alt: "Neha and Jignesh" },
+    { src: "photos/1.jpeg", alt: "Jignesh and Neha" },
+    { src: "photos/2.jpeg", alt: "Jignesh and Neha" },
+    { src: "photos/3.jpeg", alt: "Jignesh and Neha" },
+    { src: "photos/4.jpeg", alt: "Jignesh and Neha" },
+    { src: "photos/5.jpeg", alt: "Jignesh and Neha" },
   ],
 
   /* ----------------------------------------------------------

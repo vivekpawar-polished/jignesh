@@ -13,7 +13,7 @@ window.I18N = {
     btn_explore: "Explore Our Wedding", btn_view_venue: "View Venue",
     inv_eyebrow: "With the Blessings of Our Families",
     inv_title: "शुभविवाह सोहळा",
-    inv_text: "With the blessings of our families, we joyfully invite you to celebrate the wedding of Neha and Jignesh. Your presence and blessings will make our special day even more memorable.",
+    inv_text: "With the blessings of our families, we joyfully invite you to celebrate the wedding of Jignesh and Neha. Your presence and blessings will make our special day even more memorable.",
     inv_venue: "Radhe Krishna Farm, Surat",
     btn_share: "Share Invitation",
     story_eyebrow: "Our Story",
@@ -33,11 +33,11 @@ window.I18N = {
     btn_directions: "Get Directions",
     gal_eyebrow: "Moments", gal_title: "Our Gallery",
     gal_note: "More photographs will be added soon.",
-    foot_title: "With Love, Neha & Jignesh",
+    foot_title: "With Love, Jignesh & Neha",
     foot_text: "Thank you for being a part of our happiness.",
     foot_haldi: "Haldi", foot_wedding: "Wedding",
     btn_top: "Back to Top",
-    share_msg: "You are warmly invited to the wedding of Neha & Jignesh on 5 December 2026 at Radhe Krishna Farm, Surat. We would love to celebrate this special day with you!",
+    share_msg: "You are warmly invited to the wedding of Jignesh & Neha on 5 December 2026 at Radhe Krishna Farm, Surat. We would love to celebrate this special day with you!",
     music_play: "Play music", music_pause: "Pause music"
   },
   mr: {
@@ -53,7 +53,7 @@ window.I18N = {
     btn_explore: "आमचा विवाह सोहळा पहा", btn_view_venue: "स्थळ पहा",
     inv_eyebrow: "कुटुंबीयांच्या आशीर्वादाने",
     inv_title: "शुभविवाह सोहळा",
-    inv_text: "आमच्या कुटुंबीयांच्या आशीर्वादाने नेहा आणि जिग्नेश यांच्या शुभविवाह सोहळ्यास आपण सहकुटुंब उपस्थित राहून वधू-वरांना शुभाशीर्वाद द्यावेत, ही नम्र विनंती.",
+    inv_text: "आमच्या कुटुंबीयांच्या आशीर्वादाने जिग्नेश आणि नेहा यांच्या शुभविवाह सोहळ्यास आपण सहकुटुंब उपस्थित राहून वधू-वरांना शुभाशीर्वाद द्यावेत, ही नम्र विनंती.",
     inv_venue: "राधे कृष्ण फार्म, सुरत",
     btn_share: "निमंत्रण शेअर करा",
     story_eyebrow: "आमची कहाणी",
@@ -73,11 +73,11 @@ window.I18N = {
     btn_directions: "मार्ग पहा",
     gal_eyebrow: "आठवणी", gal_title: "छायाचित्रे",
     gal_note: "अधिक छायाचित्रे लवकरच जोडली जातील.",
-    foot_title: "सस्नेह निमंत्रण — नेहा आणि जिग्नेश",
+    foot_title: "सस्नेह निमंत्रण — जिग्नेश आणि नेहा",
     foot_text: "आपल्या प्रेमाने आणि आशीर्वादाने आमचा आनंद द्विगुणित होईल.",
     foot_haldi: "हळद", foot_wedding: "शुभविवाह",
     btn_top: "वर जा",
-    share_msg: "नेहा आणि जिग्नेश यांच्या शुभविवाहासाठी आपले सहर्ष निमंत्रण! दिनांक: ५ डिसेंबर २०२६, स्थळ: राधे कृष्ण फार्म, सुरत. आपल्या उपस्थितीने आमचा आनंद द्विगुणित होईल!",
+    share_msg: "जिग्नेश आणि नेहा यांच्या शुभविवाहासाठी आपले सहर्ष निमंत्रण! दिनांक: ५ डिसेंबर २०२६, स्थळ: राधे कृष्ण फार्म, सुरत. आपल्या उपस्थितीने आमचा आनंद द्विगुणित होईल!",
     music_play: "संगीत सुरू करा", music_pause: "संगीत थांबवा"
   }
 };

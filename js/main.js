@@ -27,8 +27,8 @@
       b.setAttribute("aria-pressed", String(b.getAttribute("data-lang") === l));
     });
     document.title = l === "mr"
-      ? "नेहा आणि जिग्नेश | शुभविवाह निमंत्रण | ५ डिसेंबर २०२६"
-      : "Neha & Jignesh | Wedding Invitation | 5 December 2026";
+      ? "जिग्नेश आणि नेहा | शुभविवाह निमंत्रण | ५ डिसेंबर २०२६"
+      : "Jignesh & Neha | Wedding Invitation | 5 December 2026";
     updateMusicLabel();
     try { localStorage.setItem("wedding-lang", l); } catch (e) {}
   }
