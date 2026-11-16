@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" fill="none">
+  <defs>
+    <linearGradient id="haldi-bg" x1="110" y1="33" x2="420" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF5C9"/>
+      <stop offset="1" stop-color="#F3C46B"/>
+    </linearGradient>
+    <linearGradient id="haldi-bowl" x1="193" y1="263" x2="347" y2="355" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A83A42"/>
+      <stop offset="1" stop-color="#651A31"/>
+    </linearGradient>
+  </defs>
+  <circle cx="260" cy="210" r="190" fill="url(#haldi-bg)"/>
+  <circle cx="260" cy="210" r="168" stroke="#C9A45C" stroke-width="2" stroke-dasharray="3 9"/>
+  <path d="M87 129c30-14 53-11 69 11-27 4-50 1-69-11Zm286 0c-30-14-53-11-69 11 27 4 50 1 69-11Z" fill="#526B48"/>
+  <path d="M120 275c-28-19-31-44-8-69 30 14 38 37 8 69Zm280 0c28-19 31-44 8-69-30 14-38 37-8 69Z" fill="#E89A35"/>
+  <path d="M260 74c20 23 20 42 0 58-20-16-20-35 0-58Z" fill="#E89A35"/>
+  <path d="M230 105c29 8 40 24 33 49-26-6-37-22-33-49Zm60 0c-29 8-40 24-33 49 26-6 37-22 33-49Z" fill="#F2B548"/>
+  <path d="M153 171c32-22 61-19 84 9-30 18-58 15-84-9Zm214 0c-32-22-61-19-84 9 30 18 58 15 84-9Z" fill="#F2B548"/>
+  <circle cx="260" cy="204" r="26" fill="#C9742A"/>
+  <circle cx="260" cy="204" r="9" fill="#781F35"/>
+  <path d="M189 274c16-34 40-55 71-62 31 7 55 28 71 62l-16 77H205l-16-77Z" fill="url(#haldi-bowl)"/>
+  <ellipse cx="260" cy="274" rx="72" ry="24" fill="#E8B855"/>
+  <ellipse cx="260" cy="268" rx="57" ry="16" fill="#D99421"/>
+  <path d="M225 266c18-12 49-12 69 0" stroke="#F7D77B" stroke-width="5" stroke-linecap="round"/>
+  <path d="m171 333-22 22m200-22 22 22M198 367l-17 18m139-18 17 18" stroke="#526B48" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="128" cy="207" r="7" fill="#781F35"/>
+  <circle cx="393" cy="190" r="7" fill="#781F35"/>
+  <circle cx="166" cy="109" r="5" fill="#C9742A"/>
+  <circle cx="356" cy="109" r="5" fill="#C9742A"/>
+</svg>

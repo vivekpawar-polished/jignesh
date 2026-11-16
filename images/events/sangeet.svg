@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" fill="none">
+  <defs>
+    <linearGradient id="sangeet-bg" x1="74" y1="48" x2="452" y2="398" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF1D8"/>
+      <stop offset="1" stop-color="#E9B7A7"/>
+    </linearGradient>
+    <linearGradient id="sangeet-dress" x1="233" y1="178" x2="356" y2="385" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A83250"/>
+      <stop offset="1" stop-color="#631A35"/>
+    </linearGradient>
+  </defs>
+  <circle cx="260" cy="210" r="190" fill="url(#sangeet-bg)"/>
+  <circle cx="260" cy="210" r="170" stroke="#C9A45C" stroke-width="2" stroke-dasharray="3 9"/>
+  <path d="M92 93c38-43 88-65 150-68M428 94c-34-42-78-63-134-69" stroke="#526B48" stroke-width="4" stroke-linecap="round"/>
+  <path d="M104 84c4 25 17 38 38 40-4-22-17-35-38-40ZM148 47c2 24 14 38 35 42-2-22-14-36-35-42ZM374 48c-2 24-14 38-35 42 2-22 14-36 35-42ZM417 84c-4 25-17 38-38 40 4-22 17-35 38-40Z" fill="#E89A35"/>
+  <path d="M163 354c12-63 40-105 83-126l31 24 24-26c52 24 79 66 83 128H163Z" fill="url(#sangeet-dress)"/>
+  <path d="M246 230c-15 32-19 64-12 97m74-99c16 33 20 66 12 99" stroke="#E9C36F" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="242" cy="162" r="36" fill="#C98D68"/>
+  <path d="M209 159c4-38 29-56 59-42 17 8 25 23 23 43-12-6-21-19-24-31-13 18-33 29-58 30Z" fill="#321B22"/>
+  <path d="M236 196c-18 25-31 50-37 76m69-76c18 23 30 48 36 76" stroke="#C98D68" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="352" cy="156" r="31" fill="#D8A07B"/>
+  <path d="M323 154c1-34 23-51 49-39 17 8 24 22 21 41-11-3-21-14-25-26-11 15-26 23-45 24Z" fill="#382025"/>
+  <path d="M325 202c-16 29-25 76-25 152h102c-2-75-13-126-34-153l-22 18-21-17Z" fill="#E2AD48"/>
+  <path d="M324 222 287 261m83-39 36 39" stroke="#D8A07B" stroke-width="16" stroke-linecap="round"/>
+  <path d="M130 178c-19-17-19-42 0-58 20 16 20 41 0 58Zm280-9c-17-18-15-41 5-57 18 18 16 41-5 57Z" fill="#C9A45C"/>
+  <path d="M123 120h14m-7-7v14m273 69h14m-7-7v14" stroke="#781F35" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -6,12 +6,18 @@ Plain HTML + CSS + JavaScript. No build step, no backend.
 
 ```
 index.html
+sangeet.html
+haldi.html
+wedding.html
 css/style.css
+css/event-pages.css
 js/config.js   <- edit names, dates, venue, times, gallery, music here
 js/i18n.js     <- English + Marathi text
 js/main.js     <- animations, countdown, language switcher, gallery, share
+js/event-pages.js
 images/
   couple.jpeg   <- PUT YOUR COUPLE PHOTO HERE (exact name)
+  events/       <- event-specific illustrations
 ```
 
 ## 1. Add your photo

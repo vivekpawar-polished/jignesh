@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" fill="none">
+  <defs>
+    <linearGradient id="wedding-bg" x1="91" y1="37" x2="426" y2="391" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF5E7"/>
+      <stop offset="1" stop-color="#E9C4B9"/>
+    </linearGradient>
+    <linearGradient id="wedding-arch" x1="167" y1="112" x2="355" y2="357" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DAB66E"/>
+      <stop offset="1" stop-color="#A8743D"/>
+    </linearGradient>
+  </defs>
+  <circle cx="260" cy="210" r="190" fill="url(#wedding-bg)"/>
+  <circle cx="260" cy="210" r="168" stroke="#C9A45C" stroke-width="2" stroke-dasharray="3 9"/>
+  <path d="M150 358V194a110 110 0 0 1 220 0v164" stroke="url(#wedding-arch)" stroke-width="16"/>
+  <path d="M176 357V195a84 84 0 0 1 168 0v162" stroke="#F7E5BC" stroke-width="5"/>
+  <path d="M140 183c20-11 34-28 41-51 14 24 15 47 3 68m193-17c-20-11-34-28-41-51-14 24-15 47-3 68" stroke="#526B48" stroke-width="6" stroke-linecap="round"/>
+  <path d="M149 151c15 8 26 19 34 34m188-34c-15 8-26 19-34 34" stroke="#E89A35" stroke-width="12" stroke-linecap="round" stroke-dasharray="2 12"/>
+  <path d="M211 357V246c0-26 21-47 47-47s47 21 47 47v111" fill="#781F35"/>
+  <path d="M230 356V249c0-15 12-28 28-28s28 13 28 28v107" fill="#F4D78F"/>
+  <path d="M200 205h116M215 184h86M229 164h58" stroke="#C9A45C" stroke-width="7" stroke-linecap="round"/>
+  <path d="M188 356h144M177 374h166" stroke="#A8743D" stroke-width="8" stroke-linecap="round"/>
+  <path d="M260 84c18 21 18 39 0 54-18-15-18-33 0-54Z" fill="#E89A35"/>
+  <path d="M232 110c26 7 36 22 30 44-24-6-34-20-30-44Zm56 0c-26 7-36 22-30 44 24-6 34-20 30-44Z" fill="#F2B548"/>
+  <circle cx="260" cy="163" r="12" fill="#781F35"/>
+  <path d="M104 279c20-14 39-14 58 0-19 15-38 15-58 0Zm254 0c20-14 39-14 58 0-19 15-38 15-58 0Z" fill="#E89A35"/>
+  <circle cx="133" cy="279" r="6" fill="#C9742A"/>
+  <circle cx="387" cy="279" r="6" fill="#C9742A"/>
+</svg>
