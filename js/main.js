@@ -51,6 +51,7 @@
     var d = $(selector);
     if (d) d.insertAdjacentHTML("afterend", '<p class="card-time">' + time + "</p>");
   }
+  addTime('[data-i18n="ev3_date"]', W.sangeetTime);
   addTime('[data-i18n="ev1_date"]', W.haldiTime);
   addTime('[data-i18n="ev2_date"]', W.weddingTime);
 

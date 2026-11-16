@@ -18,6 +18,7 @@ window.WEDDING = {
 
   countdownTarget: "2026-12-05T00:00:00+05:30",
 
+  sangeetTime: "8:30 PM",
   haldiTime: "4:00 PM",
   weddingTime: "6:35 PM",
 

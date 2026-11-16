@@ -46,6 +46,6 @@ Your link will be `https://<your-username>.github.io/<repo-name>/`.
 
 ## Things to update later
 
-- Event times: `haldiTime`, `weddingTime` in `js/config.js` (hidden until filled).
+- Event times are configured with `sangeetTime`, `haldiTime`, and `weddingTime` in `js/config.js`.
 - Countdown time: `countdownTarget` in `js/config.js`, for example `2026-12-05T11:30:00+05:30`.
 - Music: set `musicSrc` (e.g. `audio/shehnai.mp3`); the music button appears only then, and never autoplays.

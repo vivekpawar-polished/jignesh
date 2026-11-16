@@ -167,7 +167,7 @@ body[data-lang="mr"] .eyebrow{letter-spacing:.06em;text-transform:none}
 .story-text p:last-child{font-size:1.2rem}
 
 /* ---------- Events ---------- */
-.cards{max-width:960px;margin:0 auto;display:grid;grid-template-columns:repeat(2,1fr);gap:2rem}
+.cards{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2rem}
 .card{position:relative;background:linear-gradient(160deg,#fffef8,#fffbf0);
   border:1px solid rgba(201,164,92,.5);border-radius:20px;
   padding:3.4rem 1.6rem 2rem;text-align:center;
@@ -772,6 +772,9 @@ body.snap-ready.transitioning main::after {
   body.snap-ready main > section {
     padding: 4.2rem .9rem .8rem;
   }
+  body.snap-ready main > section#events {
+    padding-top: 3rem;
+  }
   body.snap-ready main > section.hero .hero-content {
     width: calc(100% - .4rem);
     margin-left: .2rem;
@@ -880,40 +883,65 @@ body.snap-ready.transitioning main::after {
     margin-bottom: .4rem;
   }
   body.snap-ready main > section#events .cards {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: .55rem;
+    grid-template-columns: 1fr;
+    gap: .45rem;
   }
   body.snap-ready main > section#events .card {
-    gap: .2rem;
-    padding: 2rem .5rem .8rem;
+    display: grid;
+    grid-template-columns: 42px minmax(0, 1fr);
+    align-items: center;
+    gap: .1rem .7rem;
+    padding: .6rem 1rem;
+    text-align: left;
+  }
+  body.snap-ready main > section#events .card-icon {
+    grid-column: 1;
+    grid-row: 1 / span 5;
+    margin: 0;
+  }
+  body.snap-ready main > section#events .card h3,
+  body.snap-ready main > section#events .card-sub,
+  body.snap-ready main > section#events .card-date,
+  body.snap-ready main > section#events .card-time,
+  body.snap-ready main > section#events .card-loc,
+  body.snap-ready main > section#events .card-desc,
+  body.snap-ready main > section#events .card .btn {
+    grid-column: 2;
+    justify-self: start;
+    text-align: left;
   }
   body.snap-ready main > section#events .card-garland svg {
     width: 24px;
     height: 24px;
   }
   body.snap-ready main > section#events .card-icon {
-    width: 46px;
-    height: 46px;
+    width: 40px;
+    height: 40px;
   }
   body.snap-ready main > section#events .card-icon svg {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
   }
   body.snap-ready main > section#events .card h3 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+  }
+  body.snap-ready main > section#events .card-sub {
+    font-size: .82rem;
   }
   body.snap-ready main > section#events .card-date,
   body.snap-ready main > section#events .card-loc,
+  body.snap-ready main > section#events .card-time,
   body.snap-ready main > section#events .card-desc {
-    font-size: .88rem;
+    font-size: .8rem;
     line-height: 1.25;
   }
   body.snap-ready main > section#events .card-desc {
-    margin: .25rem 0 .4rem;
+    margin: .1rem 0 .2rem;
   }
   body.snap-ready main > section#events .card .btn {
-    min-height: 38px;
-    padding: .35rem .4rem;
+    min-height: 34px;
+    margin: .1rem 0 0;
+    padding: .25rem .4rem;
     font-size: .78rem;
     letter-spacing: 0;
   }
@@ -921,6 +949,11 @@ body.snap-ready.transitioning main::after {
   body.snap-ready main > section#gallery .note {
     margin-top: .5rem;
     font-size: .9rem;
+  }
+  body.snap-ready main > section#events .card-sub,
+  body.snap-ready main > section#events .card-desc,
+  body.snap-ready main > section#events .note {
+    display: none;
   }
   body.snap-ready main > section#venue .venue-map {
     aspect-ratio: 16 / 9;
